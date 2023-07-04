@@ -27,6 +27,18 @@ Driving". Our main contributions are:
 Please check [installation](docs/installation.md) for installation and [data_preparation](docs/data_preparation.md) for
 preparing the nuScenes dataset.
 
+Notes
+
+* The most challenging part of the training process is distributing the appropriate map tile to each GPU. This process
+  includes two steps:
+    1. Determine the map tile for each GPU. This can be done with some functions in `map_tiles/lane_render.py`.
+    2. Rewrite the sampler so that each GPU can only sample the samples in the map tile assigned to it. This can be done
+       in `data_samplers.py`.
+
+[//]: # (* As part of this code release we have installed this software and run the training and evaluation scripts on a new AWS)
+
+[//]: # (instance to verify the installation process described below.)
+
 ## Getting Started
 
 Please check [getting_started](docs/getting_started.md) for training, evaluation, and visualization of neural_map_prior.
