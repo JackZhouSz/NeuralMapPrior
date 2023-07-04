@@ -1,12 +1,15 @@
-# Neural Map Prior for Autonomous Driving
+# Neural Map Prior for Autonomous Driving (CVPR 2023)
 
-### [Paper](https://arxiv.org/abs/2304.08481) | [Webpage](https://tsinghua-mars-lab.github.io/neural_map_prior/) | [5-min video](https://www.youtube.com/watch?v=FpzxaBVw3L0)
+### [arXiv Paper](https://arxiv.org/abs/2304.08481) | [CVF Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Xiong_Neural_Map_Prior_for_Autonomous_Driving_CVPR_2023_paper.pdf) | [Webpage](https://tsinghua-mars-lab.github.io/neural_map_prior/) | [5-min video](https://www.youtube.com/watch?v=FpzxaBVw3L0)
+
+[Xuan Xiong](), [Yicheng Liu](https://scholar.google.com.hk/citations?hl=en&user=vRmsgQUAAAAJ), [Tianyuan Yuan](), [Yue Wang](https://people.csail.mit.edu/yuewang/), [Yilun Wang](https://scholar.google.com.hk/citations?user=nUyTDosAAAAJ&hl=en/), [Hang Zhao](http://people.csail.mit.edu/hangzhao/)
+
+## Introduction
 
 A neural representation of HD maps to improve local map inference performance for autonomous driving.
 
-The official implementation of the paper Neural Map Prior for Autonomous
-Driving [[arXiv]](https://arxiv.org/abs/2304.08481) [[CVF]](https://openaccess.thecvf.com/content/CVPR2023/papers/Xiong_Neural_Map_Prior_for_Autonomous_Driving_CVPR_2023_paper.pdf) (
-CVPR 2023).
+The official implementation of the paper "Neural Map Prior for Autonomous
+Driving".
 
 ## Model Zoo
 
