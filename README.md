@@ -8,10 +8,6 @@ The official implementation of the paper Neural Map Prior for Autonomous
 Driving [[arXiv]](https://arxiv.org/abs/2304.08481) [[CVF]](https://openaccess.thecvf.com/content/CVPR2023/papers/Xiong_Neural_Map_Prior_for_Autonomous_Driving_CVPR_2023_paper.pdf) (
 CVPR 2023).
 
-## News
-
-* **2023.07.05:** We release the code and models of neural_map_prior.
-
 ## Model Zoo
 
 ## Installation
