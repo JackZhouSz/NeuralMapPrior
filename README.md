@@ -22,8 +22,8 @@ Driving". Our main contributions are:
 
 Notes
 
-* The most challenging part of the training process is distributing the appropriate map tile to each GPU. This process
-  includes two steps:
+* The most challenging part of the training and testing process is distributing the appropriate map tile to each GPU and
+  keeping updates on the same map tile. This process includes two steps:
     1. Determine the map tile for each GPU. This can be done with some functions in `map_tiles/lane_render.py`.
     2. Rewrite the sampler so that each GPU can only sample the samples in the map tile assigned to it. This can be done
        in `data_samplers.py`.
