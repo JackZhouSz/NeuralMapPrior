@@ -37,9 +37,8 @@ Please check [getting_started](docs/getting_started.md) for training, evaluation
 
 ## Acknowledgements
 
-We are grateful to the entire team at OpenMMLab for creating and maintaining an exceptional open-source
-software ecosystem. We would also like to express our gratitude to the entire open-source community for their
-continuous support and contributions.
+We would like to thank all who contributed to the open-source projects listed below. Our project would be impossible to
+get done without the inspiration of these outstanding researchers and developers.
 
 * BEV
   Perception: [BEVFormer](https://github.com/fundamentalvision/BEVFormer), [Lift, Splat, Shoot](https://github.com/nv-tlabs/lift-splat-shoot)
