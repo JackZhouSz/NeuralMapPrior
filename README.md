@@ -14,11 +14,11 @@ Driving". Our main contributions are:
 * __A novel mapping paradigm__: integrates the __maintenance of global maps__ and
   the __inference of online local maps__.
 * __Efficient fusion modules__:  __current-to-prior attention__ and __gated recurrent unit__ modules facilitate
-  efficient fusion of global and local map features.
+  the efficient fusion of global and local map features.
 * __Easy integration with HD map learning methods__: Neural Map Prior can be easily applied to various map segmentation
-  and detection methods. Moreover, our approach showcases significant advancements in challenging scenarios,
+  and detection methods. Moreover, our approach demonstrates significant advancements in challenging scenarios,
   such as __bad weather conditions__ and __longer perception ranges__.
-* __Sparse map tiles__: memory efficient for storing city scale HD maps neural representation.
+* __Sparse map tiles__: a memory-efficient approach for storing neural representations of city-scale HD maps.
 
 ## Model Zoo
 
