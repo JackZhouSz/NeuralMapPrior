@@ -33,5 +33,6 @@ python tools/data_converter/nuscenes_converter.py --data-root your/dataset/nuSce
 ```
 
 You can either use our provided
-files [nuScences_map_trainval_infos_train.pkl]() / [nuScences_map_trainval_infos_val.pkl]().
+files [nuScences_map_trainval_infos_train.pkl](https://drive.google.com/file/d/18P8LZcEVxGYAvMQpEROrF0pnpu62ffvD/view?usp=drive_link)
+and [nuScences_map_trainval_infos_val.pkl](https://drive.google.com/file/d/1H6HfnNqmKBFvNIivApcsRUCgPtxgIq7A/view?usp=drive_link).
 Copy the infos file into `$neural_map_prior/data/nuscenes/`.
