@@ -16,15 +16,18 @@ neural_map_prior
 ├── data
 │   ├── nuscenes
 │   │   ├── maps
-│   │   ├── samples
-│   │   ├── sweeps
-│   │   ├── v1.0-test
-|   |   ├── v1.0-trainval
+│   │   ├── samples <-- key frames
+│   │   ├── sweeps  <-- frames without annotation
+│   │   ├── v1.0-test <-- metadata
+|   |   ├── v1.0-trainval <-- metadata and annotations
+│   │   ├── nuScences_map_trainval_infos_train.pkl <-- train annotations
+│   │   ├── nuScences_map_trainval_infos_val.pkl <-- val annotations
 ```
 
 ## Download and prepare the nuScenes dataset
 
-Download nuScenes V1.0 full dataset data [HERE](https://www.nuscenes.org/download), including the map extensions.
+Download nuScenes V1.0 full dataset data [HERE](https://www.nuscenes.org/download), including the map extensions. Data
+creation should be under the GPU environment.
 Prepare nuscenes data by running
 
 ```bash

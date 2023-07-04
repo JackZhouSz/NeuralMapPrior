@@ -20,13 +20,6 @@ Driving". Our main contributions are:
   such as __bad weather conditions__ and __longer perception ranges__.
 * __Sparse map tiles__: a memory-efficient approach for storing neural representations of city-scale HD maps.
 
-## Model Zoo
-
-## Installation
-
-Please check [installation](docs/installation.md) for installation and [data_preparation](docs/data_preparation.md) for
-preparing the nuScenes dataset.
-
 Notes
 
 * The most challenging part of the training process is distributing the appropriate map tile to each GPU. This process
@@ -34,6 +27,13 @@ Notes
     1. Determine the map tile for each GPU. This can be done with some functions in `map_tiles/lane_render.py`.
     2. Rewrite the sampler so that each GPU can only sample the samples in the map tile assigned to it. This can be done
        in `data_samplers.py`.
+
+## Model Zoo
+
+## Installation
+
+Please check [installation](docs/installation.md) for installation and [data_preparation](docs/data_preparation.md) for
+preparing the nuScenes dataset.
 
 [//]: # (* As part of this code release we have installed this software and run the training and evaluation scripts on a new AWS)
 
