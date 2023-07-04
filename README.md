@@ -15,7 +15,7 @@ Driving". Our main contributions are:
   the __inference of online local maps__.
 * __Efficient fusion modules__:  __current-to-prior attention__ and __gated recurrent unit__ modules facilitate
   efficient fusion of global and local map features.
-* __Easy integration with existing HD semantic map learning methods__: can be easily applied to various map segmentation
+* __Easy integration with HD map learning methods__: can be easily applied to various map segmentation
   and detection methods. Moreover, our approach showcases significant advancements in challenging scenarios,
   such as __bad weather conditions__ and __longer perception ranges__.
 * __Sparse map tiles__: memory efficient for storing city scale HD maps neural representation.
