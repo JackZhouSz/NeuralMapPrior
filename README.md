@@ -47,7 +47,7 @@ get done without the inspiration of these outstanding researchers and developers
 * Vision Transformer: [Swin Transformer](https://github.com/microsoft/Swin-Transformer)
 * [open-mmlab](https://github.com/open-mmlab)
 
-The designate `project/nmp` as a module is inspired by the implementations
+The designate `project/neural_map_prior` as a module is inspired by the implementations
 of [DETR3D](https://github.com/WangYueFt/detr3d).
 
 ## Citation
