@@ -2,8 +2,8 @@
 
 ## Dataset structure
 
-It is recommended to symlink the dataset root to `$neural_map_prior/data`.
-If your folder structure is different from the following, you may need to change the corresponding paths in config
+It is recommended to symlink the dataset root to `$neural_map_prior/data/nuscenes`, `$neural_map_prior` means the repo
+root. If your folder structure is different from the following, you may need to change the corresponding paths in config
 files.
 
 ```
@@ -11,7 +11,7 @@ neural_map_prior
 ├── mmdet3d
 ├── tools
 ├── projects
-│   ├── neural_map_prior
+│   ├── nmp
 │   ├── configs
 ├── data
 │   ├── nuscenes
@@ -31,3 +31,7 @@ Prepare nuscenes data by running
 #python tools/create_data.py nuscenes --root-path ./data/nuscenes --out-dir ./data/nuscenes --extra-tag nuscenes
 python tools/data_converter/nuscenes_converter.py --data-root your/dataset/nuScenes/
 ```
+
+You can either use our provided
+files [nuScences_map_trainval_infos_train.pkl]() / [nuScences_map_trainval_infos_val.pkl]().
+Copy the infos file into `$neural_map_prior/data/nuscenes/`.

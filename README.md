@@ -28,6 +28,9 @@ Please check [getting_started](docs/getting_started.md) for training, evaluation
 This project is mainly based on the following open-sourced
 projects: [open-mmlab](https://github.com/open-mmlab), [HDMapNet](https://github.com/Tsinghua-MARS-Lab/HDMapNet), [VectorMapNet](https://github.com/Mrmoore98/VectorMapNet_code/tree/mian).
 
+The designate `project/mmdet3d_plugin` as a module is inspired by the implementations
+of [DETR3D](https://github.com/WangYueFt/detr3d).
+
 ## Citation
 
 Please consider citing our paper in your publications if it helps your research.
