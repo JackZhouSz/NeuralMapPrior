@@ -11,14 +11,14 @@ A neural representation of HD maps to improve local map inference performance fo
 This repo is official implementation of "Neural Map Prior for Autonomous
 Driving". Our main contributions are:
 
-* __A novel mapping paradigm__: integrates the __maintenance of offline global maps__ and
+* __A novel mapping paradigm__: integrates the __maintenance of global maps__ and
   the __inference of online local maps__.
 * __Current-to-prior attention__ and __gated recurrent unit__ modules: adaptable to mainstream HD
   semantic map learning methods and effectively enhance their map prediction performance.
-* __Map tiles__: Sparse map tiles for store city scale HD maps neural representation.
 * __Easy integration with existing HD semantic map learning methods__: such as VectorMapNet and HDMapNet, to improve
   their map prediction performance. Moreover, our approach demonstrates substantial progress in challenging scenarios,
   such as __bad weather conditions__ and __longer perception ranges__.
+* __Sparse map tiles__: memory efficient for storing city scale HD maps neural representation.
 
 ## Model Zoo
 
