@@ -8,8 +8,23 @@
 
 A neural representation of HD maps to improve local map inference performance for autonomous driving.
 
-The official implementation of the paper "Neural Map Prior for Autonomous
-Driving".
+This repo is official implementation of "Neural Map Prior for Autonomous
+Driving". Our main contributions are:
+
+* __A novel mapping paradigm__: integrates the maintenance of __offline global maps__ and
+  the
+  inference of __online local maps__. Notably, the computational and memory resources required by our approach's local
+  map
+  inference are comparable to previous methods.
+* __Current-to-prior attention__ and __gated recurrent unit__ modules: These are adaptable to mainstream HD
+  semantic
+  map learning methods and effectively enhance their map prediction performance.
+* __Easy integration with existing HD semantic map learning methods__: Our approach can be easily integrated with
+  existing
+  HD semantic map learning methods, such as VectorMapNet and HDMapNet, to improve their map prediction performance.
+  Moreover, our
+  approach demonstrates substantial progress in challenging scenarios, such as __bad weather conditions__ and
+  __longer perception ranges__.
 
 ## Model Zoo
 
@@ -28,8 +43,16 @@ Please check [getting_started](docs/getting_started.md) for training, evaluation
 
 ## Acknowledgements
 
-This project is mainly based on the following open-sourced
-projects: [open-mmlab](https://github.com/open-mmlab), [HDMapNet](https://github.com/Tsinghua-MARS-Lab/HDMapNet), [VectorMapNet](https://github.com/Mrmoore98/VectorMapNet_code/tree/mian).
+We are grateful to the entire team at Open-MMLab for creating and maintaining an exceptional open-source
+software ecosystem. We would also like to express our gratitude to the entire open-source community for their
+continuous support and contributions.
+
+* BEV
+  Perception: [BEVFormer](https://github.com/fundamentalvision/BEVFormer), [Lift, Splat, Shoot](https://github.com/nv-tlabs/lift-splat-shoot)
+* HD Map
+  Learning: [HDMapNet](https://github.com/Tsinghua-MARS-Lab/HDMapNet), [VectorMapNet](https://github.com/Mrmoore98/VectorMapNet_code/tree/mian)
+* Vision Transformer: [Swin Transformer](https://github.com/microsoft/Swin-Transformer)
+* [open-mmlab](https://github.com/open-mmlab)
 
 The designate `project/nmp` as a module is inspired by the implementations
 of [DETR3D](https://github.com/WangYueFt/detr3d).
