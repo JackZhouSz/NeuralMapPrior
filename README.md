@@ -1,6 +1,6 @@
 # Neural Map Prior for Autonomous Driving
 
-### [Paper](https://arxiv.org/abs/2304.08481) | [Webpage](https://tsinghua-mars-lab.github.io/neural_map_prior/)
+### [Paper](https://arxiv.org/abs/2304.08481) | [Webpage](https://tsinghua-mars-lab.github.io/neural_map_prior/) | [5-min video](https://www.youtube.com/watch?v=FpzxaBVw3L0)
 
 A neural representation of HD maps to improve local map inference performance for autonomous driving.
 
